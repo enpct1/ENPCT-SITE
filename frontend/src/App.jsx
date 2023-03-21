@@ -1,6 +1,6 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
-import Inicio from './containers/home'
+import Home from './containers/home'
 import Noticias from './containers/noticias'
 import Parques from './containers/parques'
 import Contacto from './containers/contacto'
@@ -14,6 +14,8 @@ function App() {
 
   return (
     <div className="App">
+     {/*<NavBar/>*/}
+      <Home/>
     <Footer />
     </div>
   )
