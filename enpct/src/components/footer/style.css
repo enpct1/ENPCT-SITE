@@ -1,0 +1,41 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 5%;
+    background-color: var(--bg-color);
+}
+footer h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+footer .location .local{
+    display: flex;
+    margin-bottom: 0.7rem;
+}
+footer .location .local .icon{
+    font-size: 2.5rem;
+    margin-right: 1.2rem;
+}
+footer .location  h5{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+footer  ul{
+    margin-bottom: 1rem;
+}
+footer  ul a{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+footer .social-media-icons a{
+    color: white;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+footer .social-media p{
+    font-size: 1.5rem;
+}
