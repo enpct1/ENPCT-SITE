@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+:root {
+  --bg-color: #063649;
+  --main-color: rgb(23, 140, 148);
+  --text-color: #fff;
+  --nav-background-color: #161616;
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  outline: none;
+  font-family: 'popins', sans-serif;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  
+  color: var(--text-color);
+
+}
+#root {
+  height: 100%;
+}

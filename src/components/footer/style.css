@@ -1,0 +1,93 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 5%;
+    background-color: var(--bg-color);
+}
+footer h1{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+footer .location .local{
+    display: flex;
+    margin-bottom: 0.7rem;
+}
+footer .location .local .icon{
+    font-size: 2.5rem;
+    margin-right: 1.2rem;
+}
+footer .location  h5{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+footer  ul{
+    margin-bottom: 1rem;
+}
+footer  ul a{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+footer .social-media-icons a{
+    color: white;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+footer .social-media p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.social-media .formFooter{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+   
+}
+.social-media .formFooter  input{
+    font-size: 2.5rem;
+    
+    border: none;
+    text-align: center;
+    width: 100%;
+    max-width: 25rem;
+    border-start-start-radius: 0.7rem;
+    border-end-start-radius: 0.7rem;
+    
+}
+
+.social-media .formFooter  .icon{
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  font-size: 3rem;
+  color:#494747;
+  border-radius: 0.7rem;
+}
+
+
+
+.social-media .formFooter a{
+    position: absolute;
+    left: 25rem;
+    width: 6rem;
+    border: none;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: #494747;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright{
+    background-color: rgb(28, 37, 66);
+    text-align: center;
+    padding: 1rem;
+}
+.copyright h1{
+    font-size: 1.5rem;
+}

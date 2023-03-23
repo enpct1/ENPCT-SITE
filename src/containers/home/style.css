@@ -1,0 +1,326 @@
+.home{
+    padding: 5rem 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image:url(./img/billy-huynh-W8KTS-mhFUE-unsplash.jpg);
+    background-size:cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+}
+spam{
+    color: aquamarine;
+}
+.home h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: #dfdede;
+}
+.home h3{
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    color: #dfdede;
+}
+
+.btn {
+    font-size: 1.2rem;
+    margin-bottom: 6rem;
+}
+.btn-1{
+    padding: 1rem 2rem;
+    background: royalblue;
+    border: 0.2rem solid royalblue;
+    color: white;
+    margin-right: 2rem;
+}
+.btn-1:hover{
+    padding: 1rem 2rem;
+    border: 0.3rem solid white;
+    background-color: transparent;
+    color: white;
+    margin-right: 2rem;
+}
+.btn-2{
+    padding: 1rem 2rem;
+    border: 0.2rem solid white;
+    color: white;
+}
+.btn-2:hover{
+    background: royalblue;
+    color: white;
+    margin-right: 2rem;
+    border: 0.2rem solid royalblue;
+}
+
+.card-contair{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-contair .card{
+    background: hsl(0, 0%, 6%, 0.9);
+    width: 25rem;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #999999;
+    border-radius: 5%;
+    border: .2rem solid #101010;
+}
+.card-contair .card:hover{
+    border-color:#999999;
+    transform: scale(1.02);
+}
+.card-contair .card .icon{
+    font-size: 3.5rem;
+    padding: 0.5rem;
+}
+.card-contair .card h5{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.card-contair .card p{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-3{
+    padding: 1rem 2rem;
+    border: 0.1rem solid royalblue;
+    color: royalblue;
+}
+.btn-3:hover{
+    padding: 1rem 2rem;
+    border: 0.1rem solid royalblue;
+    background-color: royalblue;
+    color: white;
+}
+
+.sobre-nos{
+    background-color: white;
+    padding: 5rem 5%;
+    color: white;
+    background-color: #191919;
+  
+}
+.sobre-nos h1{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #999999;
+}
+
+.content{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.content-text{
+    width: 100%;
+    max-width: 40rem;
+    color: #999999;
+    padding: 2rem;
+}
+.content-text h3{
+    font-size: 1.5rem;
+}
+.content-img {
+    display: flex;
+    flex-direction: row;
+}
+.content-img img{
+    width: 100%;
+    max-width: 30rem;
+    border: solid 0.2rem #999999;
+    transition: 0.5s;
+    margin-right: 1rem;
+}
+.content-img img:hover{
+    transform: scale(1.2)
+}
+
+.servicos{
+    background-color: #e7e5e3;
+    padding: 5rem 5%;
+    text-align: center;
+}
+.servicos h1{
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: royalblue;
+}
+.service-container{
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.service-container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6rem 6rem 6rem;
+}
+.service-container .card h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    color: royalblue;
+}
+.card-container .card .icon{
+    font-size: 8rem;
+    color: royalblue;
+
+}
+.btn-4{
+    padding: 1rem 2rem;
+    background: royalblue;
+    color: white;
+    border: 0.3rem solid royalblue;
+    font-size: 1.5rem;
+}
+.btn-4:hover{
+    padding: 1rem 2rem;
+    border: 0.3rem solid royalblue;
+    background-color: transparent;
+    color: royalblue;
+    font-size: 1.5rem; 
+}
+
+.noticias{
+    background-color: #191919;
+    padding: 5rem 5%;
+}
+
+.noticias h1{
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    color: #999999;
+    text-align: center;
+
+}
+.noticias-container{
+    margin-bottom: 7rem;
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.card-noticia {
+    position: relative;
+}
+.card-noticia .imagem {
+    position: relative;
+}
+.card-noticia .imagem img {
+    width: 100%;
+    max-width: 30rem;
+    border: solid 0.2rem #999999;
+    transition: 0.5s;
+}
+.card-noticia a {
+    padding: 1rem 2rem;
+    background-color: royalblue;
+    color: white; 
+    position: absolute;  
+    top: 14.3rem;
+    left: 2.4rem; 
+}
+
+.card-noticia p {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #101010;
+    background-color: white;
+    padding: 2rem;
+    top: 16.4rem;
+    left: 0;
+}
+
+
+/*Criando o conteudo do parque*/
+.parques {
+    padding: 5rem 5%;
+    background-color: white;
+    text-align: center;
+
+}
+.parques h1{
+    font-size: 4rem;
+    color: #101010; 
+    margin-bottom: 5rem;  
+}
+.parques h2{
+    font-size: 2rem;
+    color: #101010;   
+}
+.parques-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-parque{
+    width: 100%;
+    max-width: 25rem;
+    background-color: rgba(194, 187, 187, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.card-parque .icon{
+ color: royalblue;
+   font-size: 6rem;
+   padding: 1rem;
+}
+.parques-container .card-parque  h1{
+    color: #101010;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+   
+   }
+.parques-container .card-parque  h2{
+    color: #101010;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    }
+.parques-container .card-parque p{
+    color: #101010;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+    }
+.parques-container .card-parque  button{
+        padding: .8rem 1.6rem;
+        border: 0.3rem solid royalblue;
+        background-color: transparent;
+        color: royalblue;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+    .parques-container .card-parque  button:hover{
+        color: white;
+        background-color: royalblue;
+    }
