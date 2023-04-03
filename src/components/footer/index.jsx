@@ -76,7 +76,7 @@ function Footer() {
             </div> 
           </footer>
           <div className="copyright">
-              <h1>Copyrigth © 2023 ENPCT </h1>
+              <h1>© 2021 Empresa Nacional de Parques de Ciência e Tecnologia E.P.</h1>
             </div>
         </>
       )

@@ -1,0 +1,121 @@
+.contact {
+   
+}
+
+.contact .text-container {
+
+    background-color: royalblue;
+    font-size: 2rem;
+    padding: 3rem 5%;
+    box-shadow: 0rem 0rem 0.1rem #1e2b4d, 0rem 0rem 0.5rem #e2e1e1;
+}
+
+.contact .text-container h1 {
+    text-transform: uppercase;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    padding: 7rem 5%;
+    justify-content: space-around;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario form input,
+textarea {
+    width: 100%;
+    max-width: 60rem;
+    min-width: 50rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.4rem;
+    outline: none;
+    border-bottom: 0.3rem solid #0ef;
+    color: white;
+    background: none;
+}
+
+.formulario form input:hover {
+    border: 0.2rem solid rgb(53, 53, 163);
+    width: 40rem;
+    transition: 0.7s ease-in-out;
+}
+.formulario form textarea:hover {
+    border: 0.2rem solid rgb(53, 53, 163);
+    width: 40rem;
+    transition: 0.7s ease-in-out;
+}
+
+.formulario form::placeholder {
+    color: #fff;
+}
+
+.formulario form a {
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 70rem;
+    min-width: 50rem;
+    border-radius: 0.4rem;
+    background-color: royalblue;
+    border: 0.2rem solid royalblue;
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+.formulario form a:hover {
+    border: 0.2rem solid royalblue;
+    color: royalblue;
+    background-color: transparent;
+}
+
+.google-map {
+    width: 100%;
+    max-width: 50rem;
+    background-color: #191919;
+    height: 25rem;
+}
+
+.more-info {
+    padding: 3rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5rem;
+}
+
+.card-address {
+    color: #191919;
+    box-shadow: 0rem 0rem 0rem #dedfe0, 0rem 0rem 1rem #dedfe0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 15rem;
+}
+
+.card-address .icon {
+    font-size: 4rem;
+    color: royalblue;
+    padding: 1rem;
+}
+
+.card-address h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: royalblue;
+}
+
+.card-address p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
