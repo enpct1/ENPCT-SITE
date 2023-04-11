@@ -1,5 +1,5 @@
 import '../home/style.css'
-import { FaCode, FaFileArchive, FaFilePdf, FaGlobe, FaGlobeAfrica, FaHome, FaLinkedin, FaLinkedinIn, FaPhoneAlt, FaRProject, FaSchool, FaServicestack, FaStopCircle, FaSwatchbook } from 'react-icons/fa'
+import { FaCode, FaFileArchive, FaFilePdf, FaGlobe, FaGlobeAfrica, FaHome, FaLinkedin, FaLinkedinIn, FaPhoneAlt, FaRProject, FaSchool, FaServicestack, FaStopCircle, FaSwatchbook, FaUserGraduate, FaCertificate,FaToolbox } from 'react-icons/fa'
 
 function Inicio() {
   return (
@@ -65,18 +65,17 @@ function Inicio() {
           <div className="content-text">
             <h1>Sobre Nós</h1>
             <h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dolor hic placeat aperiam quasi eum nisi repudiandae harum
-              laborum libero exercitationem, animi vero tempore, inventore
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Dolor hic placeat aperiam quasi eum nisi repudiandae harum
-              laborum libero exercitationem, animi vero tempore, inventore
+            Por Decreto 21/2012 de 6 de Julho foi criada a Empresa Nacional de Parques de Ciência e 
+                Tecnologia E.P. abreviadamente designada ENPCT E.P. e aprovados os respectivos Estatutos.
+                A ENPCT E.P. é uma pessoa colectiva de direito público, dotada de personalidade jurídica 
+                e com autonomia administrativa, financeira e patrimonial <a href="sobre.jsx">mais</a>.<center/>
             </h3>
+            
 
           </div>
           <div className="content-img">
-            <img class="img-1" src="/src/components/img/5039684.jpg" alt="Logo da ENPCT" />
-            <img class="img-1" src="/src/components/img/conceito-de-controle-de-qualidade-padrao-m (2).jpg" alt="Logo da ENPCT" />
+            <img class="img-1" src="/src/components/img/09.jpg" alt="Logo da ENPCT" />
+            <img class="img-1" src="/src/components/img/13.gif" alt="Logo da ENPCT" />
           </div>
         </div>
 
@@ -88,7 +87,7 @@ function Inicio() {
 
           <div className="card-container">
             <div className="card">
-              <div className="icon"><FaCode /></div>
+              <div className="icon"><FaUserGraduate /></div>
               <h2>Treinamento <br />Profissional</h2>
               <a href="#" className="btn-4">LER MAIS</a>
             </div>
@@ -96,7 +95,7 @@ function Inicio() {
           </div>
           <div className="card-container">
             <div className="card">
-              <div className="icon"><FaCode /></div>
+              <div className="icon"><FaCertificate /></div>
               <h2>Certificação <br />Profissional</h2>
               <a href="#" className="btn-4">LER MAIS</a>
             </div>
@@ -104,7 +103,7 @@ function Inicio() {
           </div>
           <div className="card-container">
             <div className="card">
-              <div className="icon"><FaCode /></div>
+              <div className="icon"><FaToolbox /></div>
               <h2>Incubara de<br />Empresas</h2>
               <a href="#" className="btn-4">LER MAIS</a>
             </div>
@@ -126,23 +125,23 @@ function Inicio() {
         <div className="noticias-container">
           <div className="card-noticia">
             <div className="imagem">
-              <img src="/src/components/img/conceito-de-controle-de-qualidade-padrao-m (2).jpg" alt="Noticia Actual" />
+              <img src="/src/components/img/WhatsApp Image 2023-04-05 at 04.33.41 (1).jpeg" alt="Noticia Actual" />
             </div>
-            <p>Os Robos são a nova sensação</p>
+            <p>Visita de trabalho da sua Excelência Edson Da Graça Macuácua Vice-Ministro da Ciência, Tecnologia e Ensino Superior</p>
             <a href="#">ACTUAL</a>
           </div>
 
           <div className="card-noticia">
             <div className="imagem">
-              <img src="/src/components/img/conceito-de-controle-de-qualidade-padrao-m (2).jpg" alt="Noticia Actual" />
+              <img src="/src/components/img/WhatsApp Image 2023-04-05 at 04.33.45.jpeg" alt="Noticia Actual" />
             </div>
-            <p>Os Robos são a nova sensação</p>
+            <p>Visita de trabalho da sua Excelência Edson Da Graça Macuácua Vice-Ministro da Ciência, Tecnologia e Ensino Superior</p>
             <a href="#">ACTUAL</a>
           </div>
 
           <div className="card-noticia">
             <div className="imagem">
-              <img src="/src/components/img/conceito-de-controle-de-qualidade-padrao-m (2).jpg" alt="Noticia Actual" />
+              <img src="/src/components/img/WhatsApp Image 2023-02-27 at 15.05.49.jpeg" alt="Noticia Actual" />
             </div>
             <p>Os Robos são a nova sensação</p>
             <a href="#">ACTUAL</a>
@@ -156,32 +155,32 @@ function Inicio() {
             <div className="icon"><FaGlobe /></div>
             <h1>PCTM</h1>
             <h2>Parque de Ciência e Teclonogias de Maluana</h2>
-            <p>Localisado na província de Maputo, no
-              distrito de Manhiça, com objectivo denegocio nas TIC's</p>
+            <p>Localizado na província de Maputo, no
+              distrito de Manhiça, com segmento de TIC's</p>
             <button>Ler Mais</button>
           </div>
           <div className="card-parque">
             <div className="icon"><FaGlobe /></div>
             <h1>PCTM</h1>
-            <h2>Parque de Ciência e Teclonogias de Maluana</h2>
-            <p>Localisado na província de Maputo, no
-              distrito de Manhiça, com objectivo denegocio nas TIC's</p>
+            <h2>Parque de Ciência e Teclonogias de Mocuba</h2>
+            <p>Localizado na província de Zambézia, no
+              distrito de Mocuba, com segmento de Agronegócio</p>
+            <button>Ler Mais</button>
+          </div>
+          <div className="card-parque">
+            <div className="icon"><FaGlobe /></div>
+            <h1>PCTD</h1>
+            <h2>Parque de Ciência e Teclonogias de Dombe</h2>
+            <p>Localizado na província de Manica, no
+              distrito de Sussundenga, com segmento de Agronegócio</p>
             <button>Ler Mais</button>
           </div>
           <div className="card-parque">
             <div className="icon"><FaGlobe /></div>
             <h1>PCTM</h1>
-            <h2>Parque de Ciência e Teclonogias de Maluana</h2>
-            <p>Localisado na província de Maputo, no
-              distrito de Manhiça, com objectivo denegocio nas TIC's</p>
-            <button>Ler Mais</button>
-          </div>
-          <div className="card-parque">
-            <div className="icon"><FaGlobe /></div>
-            <h1>PCTM</h1>
-            <h2>Parque de Ciência e Teclonogias de Maluana</h2>
-            <p>Localisado na província de Maputo, no
-              distrito de Manhiça, com objectivo denegocio nas TIC's</p>
+            <h2>Parque de Ciência e Teclonogias de Muereti</h2>
+            <p>Localizado na província de Nampula, no
+              distrito de Nacala, com segmento de Transporte & Logística</p>
             <button>Ler Mais</button>
           </div>
         </div>

@@ -175,7 +175,7 @@ spam {
 }
 
 .content-text h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
@@ -190,12 +190,18 @@ spam {
     border: solid 0.2rem royalblue;
     transition: 0.5s;
     margin-right: 1rem;
+    margin-top: 9rem;
 }
 
 .content-img img:hover {
     transform: scale(1.2)
 }
 
+.content-text a {
+	font-family:"georgia", sans-serif;
+	font-style: italic;
+    text-decoration: underline;	
+}
 /* Servicos*/
 
 .servicos {

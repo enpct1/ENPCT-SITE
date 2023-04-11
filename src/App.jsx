@@ -4,12 +4,12 @@ import Inicio from './containers/home'
 import Noticias from './containers/noticias'
 import Parques from './containers/parques'
 import Contacto from './containers/contacto'
-import Sobre from './containers/sobre'
 import Servicos from './containers/servicos'
 import NavBar from './components/navBar'
 import Footer from './components/footer'
 import Galeria from './containers/galeria'
 import Documentos from './containers/documentos'
+import Sobre from './containers/sobre'
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       {/* Partcles */}
 
       {/* navbar */}
+      
       <NavBar />
 
       <Routes>
