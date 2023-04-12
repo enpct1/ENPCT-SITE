@@ -1,6 +1,7 @@
 import { FaBars } from 'react-icons/fa'
 import './style.css'
 import { Link } from "react-router-dom"
+import {AiTwotoneHome} from "react-icons/ai"
 
 
 
@@ -16,10 +17,10 @@ function NavBar() {
                 </Link>
                 <nav className="navbar">
                     <ul>
-                        <Link to={'/'}><li><a >Inicio</a></li></Link>
-                        <Link to={'/sobre'}><li><a >Sobre Nos</a></li></Link>
-                        <Link to={'/servicos'}><li><a >Servicos</a></li></Link>
-                        <Link to={'/noticias'}><li><a >Noticias</a></li></Link>
+                        <Link to={'/'}><li className="icon"><a ><AiTwotoneHome /></a></li></Link>
+                        <Link to={'/sobre'}><li><a >Sobre Nós</a></li></Link>
+                        <Link to={'/servicos'}><li><a >Serviços</a></li></Link>
+                        <Link to={'/noticias'}><li><a >Notícias</a></li></Link>
                         <Link to={'/parques'}><li><a >Parques</a></li></Link>
                         <Link to={'/contacto'}><li><a >Contacto</a></li></Link>
                         <Link to={'/galeria'}><li><a >Galeria</a></li></Link>
