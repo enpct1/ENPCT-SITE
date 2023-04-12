@@ -1,0 +1,158 @@
+.home {
+    padding: 5rem 5%;
+    background-image: url(/src/components/img/ai-nuclear-energy-background-future-innovation-disruptive-technology.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+span {
+    color: aquamarine;
+}
+
+.home h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: #dfdede;
+}
+
+.home h3 {
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    color: #dfdede;
+}
+
+.btn {
+    font-size: 1.2rem;
+    margin-bottom: 6rem;
+}
+
+.btn-1 {
+    padding: 1rem 2rem;
+    background: #a02e2e;
+    color: white;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    border-left: 0.2rem solid #a02e2e;
+    border-bottom: 0.2rem solid #a02e2e;
+}
+
+.btn-1:hover {
+    padding: 1rem 2rem;
+    border: 0.2rem solid white;
+    background-color: transparent;
+    color: white;
+    margin-right: 2rem;
+}
+
+.btn-2 {
+    padding: 1rem 2rem;
+    border: 0.2rem solid white;
+    color: white;
+    border-radius: 1rem;
+}
+
+.btn-2:hover {
+    background: royalblue;
+    color: white;
+    border: 0.2rem solid royalblue;
+}
+
+.card-contair {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-contair .card {
+    background: #1f242da6;
+    backdrop-filter: blur(1rem);
+    width: 25rem;
+    height: 25rem;
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5%;
+}
+
+.card-contair .card:hover {
+    border-color: royalblue;
+    box-shadow: 0rem 0rem 1rem 0.1rem royalblue,
+        0rem 0rem 0.1rem 0.1rem royalblue;
+    transform: scale(1.02);
+}
+
+.card-contair .card .icon {
+    font-size: 3.5rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+.card-contair .card h5 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-contair .card p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.card .docs {
+    font-size: 1.1rem;
+    background-color: #ff4268;
+    color: white;
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    border: 0.1rem solid #ff4268;
+    border-left: 0.2rem solid #ff738e;
+    border-bottom: 0.2rem solid #ff738e;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.btn-3 {
+    padding: 1rem 2rem;
+    border: 0.2rem solid royalblue;
+    color: white;
+    border-radius: 1rem;
+    background-color: royalblue;
+    font-weight: bold;
+}
+
+.btn-3:hover {
+    padding: 1rem 2rem;
+    border: 0.2rem solid white;
+    background-color: transparent;
+    color: white;
+}
+
+/*Responsividade*/
+
+@media (max-width: 1000px){
+   .home h1{
+    font-size: 3rem;
+   }
+}
+

@@ -1,6 +1,7 @@
 footer{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 5rem 5%;
     background-color: var(--bg-color);
     box-shadow: 0rem 0rem 0.1rem #1e2b4d, 0rem 0rem 0.1rem #858585;
@@ -59,7 +60,6 @@ footer .social-media p{
 }
 .social-media .formFooter  input{
     font-size: 2.5rem;
-    
     border: none;
     text-align: center;
     width: 100%;
@@ -82,7 +82,7 @@ footer .social-media p{
 
 .social-media .formFooter a{
     position: absolute;
-    left: 25rem;
+    left: 20rem;
     width: 6rem;
     border: none;
     height: 3rem;
@@ -92,12 +92,16 @@ footer .social-media p{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-start-start-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .copyright{
-    background-color: rgb(28, 37, 66);
+   padding-block: 1.25rem;
+   border-top: 0.2rem dashed #cacacaa4;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
+    background-color: var(--bg-color);
 }
 .copyright h1{
     font-size: 1.5rem;

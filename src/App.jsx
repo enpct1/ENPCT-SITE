@@ -10,19 +10,22 @@ import NavBar from './components/navBar'
 import Footer from './components/footer'
 import Galeria from './containers/galeria'
 import Documentos from './containers/documentos'
+import NavBarWeather from './components/navBarWeather/navBarWeather'
+
+
+
 
 
 function App() {
 
   return (
     <div className="App">
-      {/* Partcles */}
-
-      {/* navbar */}
-      <NavBar />
+      {/* <NavBarWeather />   */}
+       <NavBar />
+      
 
       <Routes>
-
+        
         <Route index path='/' element={<Inicio />} />
         <Route path='/noticias' element={<Noticias />} />
         <Route path='/parques' element={<Parques />} />
@@ -34,7 +37,7 @@ function App() {
 
       </Routes>
       <Footer />
-
+  
     </div>
   )
 }
