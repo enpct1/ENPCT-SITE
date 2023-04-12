@@ -1,0 +1,96 @@
+/* Servicos*/
+
+.servicos {
+    background-color: #fff;
+    padding: 5rem 5%;
+    text-align: center;
+}
+
+.servicos h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: royalblue;
+}
+
+.servicos h1::after{
+    content: "";
+    height: 0.4rem;
+    width: 16rem;
+    background-color: royalblue;
+    display: block;
+    margin: auto;
+}
+
+.service-container {
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.service-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6rem 6rem 6rem;
+}
+
+.service-container .card h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+    color: #1f242da6;
+}
+
+.card-container .card .icon {
+    font-size: 6rem;
+    color: royalblue;
+}
+
+.btn-4 {
+    padding: 1rem 2rem;
+    background: royalblue;
+    color: white;
+    border: 0.2rem solid royalblue;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+}
+
+.btn-4:hover {
+    padding: 1rem 2rem;
+    border: 0.2rem solid royalblue;
+    background-color: transparent;
+    color: royalblue;
+    font-size: 1.2rem;
+
+}
+
+/*BreakPointou Responsividade*/
+
+@media (max-width: 430px) {
+    .servicos h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .service-container {
+        margin-top: 4rem;
+    }
+    .service-container .card h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem; 
+    }
+    .card-container .card .icon {
+        font-size: 4rem;
+    }
+    .service-container .card {
+        padding: 0 6rem 3rem 6rem;
+    }
+    .servicos h1::after{
+        content: "";
+        width: 12rem;
+
+    }
+}

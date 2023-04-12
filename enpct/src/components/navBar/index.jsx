@@ -1,31 +1,57 @@
-
+import { FaBars } from 'react-icons/fa'
 import './style.css'
+import { Link } from "react-router-dom"
+
+
+
 
 function NavBar() {
 
+
     return (
         <>
-           <header className="header">
-            <a href="#" className="logo"><img src="./img/ENPCT_Logo.png" alt="Logo da ENPCT" /></a>
-            
-            <nav className="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Servicos</a></li>
-                <li><a href="#">Parques</a></li>
-                <li><a href="#">Sobre nos</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">EN</a></li>
-            </ul>
+            <header className="header">
+                <Link to={'/'}>
+                    <a className="logo"><img src="/src/components/img/ENPCT_Logo.png" alt="Logo da ENPCT" /></a>
+                </Link>
+                <nav className="navbar">
+                    <ul>
+                        <Link to={'/'}><li><a >Inicio</a></li></Link>
+                        <Link to={'/sobre'}><li><a >Sobre Nos</a></li></Link>
+                        <Link to={'/servicos'}><li><a >Servicos</a></li></Link>
+                        <Link to={'/noticias'}><li><a >Noticias</a></li></Link>
+                        <Link to={'/parques'}><li><a >Parques</a></li></Link>
+                        <Link to={'/contacto'}><li><a >Contacto</a></li></Link>
+                        <Link to={'/galeria'}><li><a >Galeria</a></li></Link>
+                        <Link to={'/documentos'}><li><a >Documentos</a></li></Link>
+                    </ul>
+                    <a href="#" className='btn-login'> Login </a>
+                    <div className="toggle-btn">
+                        <FaBars />
+                    </div>
+                </nav>
 
-            </nav>
-            <div className="login">
-                    <a href="#">Login</a>
+                {/*
+                
+                <div className="dropdown-menu open">
+                    <Link to={'/'}><li><a >Inicio</a></li></Link>
+                    <Link to={'/sobre'}><li><a >Sobre Nos</a></li></Link>
+                    <Link to={'/servicos'}><li><a >Servicos</a></li></Link>
+                    <Link to={'/noticias'}><li><a >Noticias</a></li></Link>
+                    <Link to={'/parques'}><li><a >Parques</a></li></Link>
+                    <Link to={'/contacto'}><li><a >Contacto</a></li></Link>
+                    <Link to={'/galeria'}><li><a >Galeria</a></li></Link>
+                    <Link to={'/documentos'}><li><a >Documentos</a></li></Link>
+                    <li> <a href="#" className='btn-login'> Login </a></li>
+
                 </div>
-           </header>
+                 
+                 */}
+
+
+            </header>
         </>
-      )
-  };
-  
-  export default NavBar;
+    )
+};
+
+export default NavBar;

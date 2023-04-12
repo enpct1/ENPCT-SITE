@@ -1,0 +1,218 @@
+.campo_texto{
+    width: 100%;
+    height: 15rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.campo_texto h1{
+    font-size: 4rem;
+    text-align: center;
+    color: #191919;
+}
+.contact {
+    padding: 5rem 5%;
+ 
+}
+
+.contact h1{
+    color: #191919;
+    font-size: 4rem;
+    text-align: center;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+    padding: 5rem 5%;
+    justify-content: space-around;
+}
+
+form {
+    width: 70rem;
+    margin: 5rem auto;
+    max-width: 95%;
+    border-radius: 0.4rem;
+    padding: 1rem 0.5rem;
+}
+
+
+form .half {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .half .item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.4rem;
+    width: 32%;
+}
+
+form label {
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+    font-weight: 500;
+    color: #191919;
+}
+
+.icon-contact{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: blue;
+}
+
+form .half .item input {
+    border-radius: 0.4rem;
+    border: 0.1rem solid #191919;
+    outline: 0;
+    padding: 1.3rem;
+    width: 100%;
+    height: 3.5rem;
+    background: transparent;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+form .full {
+    margin-bottom: 2.4rem;
+}
+
+form .full textarea {
+    background: transparent;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #191919;
+    outline: 0;
+    padding: 1rem 1rem;
+    width: 100%;
+    height: 7rem;
+    font-size: 1.4rem;
+}
+
+
+.action{
+    width: 100%;
+    text-align: center;
+    background: blue;
+    border-radius: 0.4rem;
+    border: 0.1rem solid white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 600;
+    height: 3.5rem;
+    letter-spacing: 0.3rem;
+    padding: 0.8rem 1.6rem;
+    outline: 0;
+    color: white;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action a{
+    color: white;
+}
+.action:hover{
+    background-color:transparent;
+    border: 0.1rem solid blue;
+    color: blue;
+}
+.action a:hover{
+    color: blue;
+}
+
+
+.more-info {
+    padding: 3rem 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-address {
+    color: #191919;
+    box-shadow: 0rem 0rem 0rem #dedfe0, 0rem 0rem 1rem #dedfe0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    width: 25rem;
+    height: 15rem;
+    margin-right: 2rem;
+}
+
+.card-address .icon {
+    font-size: 4rem;
+    color: blue;
+    padding: 1rem;
+}
+
+.card-address h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: blue;
+}
+
+.card-address p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 90rem) {
+    .more-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width: 48rem) {
+
+    form {
+        margin: 0rem;
+    }
+    form .half {
+        flex-direction: column;
+    }
+
+    form .half .item {
+        width: 100%;
+    }
+
+    form .action {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form .action input {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .more-info{
+        margin: 2rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .more-info .icon{
+        font-size: 2rem;
+        padding: 2rem; 
+        margin-left: 0;
+        margin-right: 0; 
+        margin-bottom: 0; 
+    }
+    .card-address{
+        margin-bottom: 2rem;
+        margin-right: 1rem;
+    }
+    .contact h1{
+        font-size: 2rem;
+    }
+}
